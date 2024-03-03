@@ -23,3 +23,25 @@ const myFunction = function(){
 }
 
 console.log(typeof(myFunction));
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Memory
+// Stack (primitive), Heap (Non - primitive)
+
+let a = "Hello";
+let b = a;
+b = "namaste"
+
+console.log(a);
+console.log(b);
+
+let User1 = {
+    userName : "roman clare",
+    userId : "rclare"
+}
+
+let User2 = User1;
+User2.userName = "hsoni";
+
+console.log(User1.userName);
+console.log(User2.userName);
